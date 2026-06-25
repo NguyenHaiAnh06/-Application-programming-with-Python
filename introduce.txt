@@ -1,0 +1,28 @@
+in Kiểm tra một phần tử có nằm List hay không, 
+kết quả trả về True hoặc False.
+"Abc" in ["One", "Abc"]
+-> True
+
+
+list.append(obj) Nối (append) một đối tượng vào danh sách.
+
+list.count(obj) Trả về số lần xuất hiện 'obj' trong danh sách
+
+list.extend(seq) Nối nội dung của một dẫy (sequence) và danh sách
+
+list.index(obj) Trả về chỉ số nhỏ nhất trong danh sách tìm thấy phần tử có giá trị là obj.
+
+list.insert(index, obj) Trèn một phần tử vào danh sách tại chỉ số index.
+
+list.pop([index]) Nếu có tham số index, loại bỏ và trả về phần tử tại vị trí index. Ngược lại loại 
+bỏ và trả về phần tử cuối cùng của danh sách.
+
+list.remove(obj) Loại bỏ phần tử đầu tiên có giá trị là obj ra khỏi danh sách.
+list.reverse() Đảo ngược các phần tử trong danh sách.
+
+list.sort(key=None, 
+reverse=False) Sắp xếp các phần tử theo khóa (key) cung cấp bởi tham số.
+
+DSA: Viết chương trình tạo một list mới bằng cách loại bỏ các phần tử có giá trị 
+giống nhau trong list đầu vào. Ví dụ: nhập list đầu vào là _list= ['abc', 'xyz', 'abc', 
+'12', ‘ii’, ‘12’, ‘5a’] à kết quả list mới là _new= ['xyz', ‘ii’, ‘5a’]
