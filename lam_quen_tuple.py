@@ -36,4 +36,10 @@ _l2.sort(reverse=True)
 
 print("sắp xếp danh sách số dương: ", _l1)
 print("sắp xếp danh sách số âm: ", _l2)
-# test push code git,add
+
+
+_l1.insert(0,0)
+_l2.insert(0,0)
+
+print("sau khi nối 0 vào đầu list _l1",_l1)
+print("sau khi nối 0 vào đầu list _l2",_l2)
