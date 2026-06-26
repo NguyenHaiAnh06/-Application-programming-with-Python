@@ -36,3 +36,4 @@ _l2.sort(reverse=True)
 
 print("sắp xếp danh sách số dương: ", _l1)
 print("sắp xếp danh sách số âm: ", _l2)
+# test push code git
