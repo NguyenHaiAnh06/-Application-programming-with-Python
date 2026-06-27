@@ -10,15 +10,18 @@ def checksont(n):
         if(n % i == 0):
             return False
     return True
+
 f_read = open("test_file.txt", "r")
 _string1 = f_read.read()
 f_read.close()
+
 tachchuoi = _string1.split(",")
 
 temp = []
 for i in tachchuoi:
     if checksont(int(i)):
         temp.append(int(i))
+
 f_write = open("checksonguyento.txt", "w")
 
 inradanhsach = ",".join(map(str, temp))
