@@ -5,6 +5,7 @@
 # Thêm số 0 vào đầu danh sách L1 và vào cuối danh sách L2
 # Nối L1 và L2 theo thứ tự L2 trước, L1 sau
 #Tìm các số nguyên tố trong _t2(viết function riêng để kiểm tra số nguyên tố)
+from operator import truediv
 
 #Nhập vào 1 danh sách
 n = int(input("nhập vào số lượng phần tử: "))
@@ -42,4 +43,4 @@ _l1.insert(0,0)
 _l2.insert(0,0)
 
 print("sau khi nối 0 vào đầu list _l1",_l1)
-print("sau khi nối 0 vào đầu list _l2",_l2)
+print("sau khi nối 0 vào cuoi list _l2",_l2)

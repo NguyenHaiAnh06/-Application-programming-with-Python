@@ -1,0 +1,29 @@
+len(string) – trả về độ dài của chuỗi string
+2. capitalize() – In hoa chữ cái đầu tiên của chuỗi
+3. count(sub,start,end) - đếm số chuỗi con có trong chuỗi
+4. encode(type,mode) – mã hóa một chuỗi (type mặc định là “utf-8”)
+5. decode(type,mode) – giải mã một chuỗi
+6. endswith(sub,start,end) – kiểm tra có chuỗi con nằm cuối không
+7. startswith(sub,start,end) – kiểm tra có chuỗi con nằm đầu không
+8. isalnum() – kiểm tra chuỗi chỉ bao gồm chữ cái hoặc số (không có: dấu cách, ký tự đặc biệt)
+9. isalpha() – kiểm tra chuỗi chỉ bao gồm chữ cái (không có: số, dấu cách, ký tự đặc biệt)
+10. isnumeric() – kiểm tra chuỗi chỉ bao gồm chữ số (không bao gồm dấu . thập phân)
+11. istitle() – kiểm tra chuỗi có các chữ cái đầu mỗi từ được viết hoa hay không (Họ Và Tên)
+12. title() – chuyển viết hoa chữ cái đầu mỗi từ (Họ Và Tên)
+
+lower() – chuyển chuỗi về dạng in thường
+14. upper() – chuyển chuỗi về dạng in HOA
+15. lstrip(char) – loại bỏ các ký tự char ở đầu chuỗi
+16. rstrip(char) – loại bỏ các ký tự char ở cuối chuỗi
+17. strip(char) – loại bỏ các ký tự char ở đầu và cuối chuỗi
+18. find(sub,start,end) – trả về vị trí đầu tiên của chuỗi con trong một chuỗi, trả về -1 nếu không tìm thấy
+19. rfind(sub,start,end) – trả về vị trí cuối cùng của chuỗi con trong một chuỗi
+20. replace(old,new,max) - tìm kiếm và thay thế chuỗi tìm được bằng chuỗi mới (max là số lần tối đa có thể thay thế)
+21. split(char,max) – tách chuỗi thành mảng bởi các ký tự char (max là số lượng chuỗi tách tối đa)
+22. splitlines(max) – tách chuỗi bởi ký tự /n (max là số lần có thể cắt tối đa)
+23. join(seq) – nối các phần tử trong mảng seq thành chuỗi
+
+đọc file import os
+open mở file
+dong file close()
+stirng_2.read() đọc file
