@@ -22,6 +22,7 @@ lower() – chuyển chuỗi về dạng in thường
 21. split(char,max) – tách chuỗi thành mảng bởi các ký tự char (max là số lượng chuỗi tách tối đa)
 22. splitlines(max) – tách chuỗi bởi ký tự /n (max là số lần có thể cắt tối đa)
 23. join(seq) – nối các phần tử trong mảng seq thành chuỗi
+lower(): Chuyển tất cả chữ về chữ thường để từ "Anh" và "anh" được tính là một từ giống nhau.
 
 đọc file import os
 open mở file

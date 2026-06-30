@@ -1,0 +1,7 @@
+hàm update: _dict.update(dict_element), su dung de thay doi value
+
+ Xóa phần tử:
+Có 2 cách để loại bỏ một phần tử ra khỏi một dictionary.
+Sử dụng toán tử del _diction
+Sử dụng phương thức __delitem__(key)
+sử dụng phương thức _dictionenary.clear() để xoá các phần tử  key và value khỏi bộ nhớ
