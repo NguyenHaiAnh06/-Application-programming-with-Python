@@ -64,7 +64,7 @@ def main():
                 raise ValueError
 
         except ValueError as e:
-            print(f" lỗi: Khách hàng nhập sai kiểu dữ liệu số hoặc {e}")
+            print(f" lỗi: nhập sai kiểu dữ liệu số hoặc {e}")
 
         finally:
             print(f"lượt nhập thứ {i + 1}\n")
