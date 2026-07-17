@@ -1,0 +1,5 @@
+x: Danh sách các giá trị nằm trên trục hoành (trục ngang).
+y: Danh sách các giá trị nằm trên trục tung (trục đứng),phải có số lượng phần tử bằng bằng với x.
+marker='o': Đánh dấu các điểm tọa độ gốc bằng hình tròn (nếu không có tham số này, bạn chỉ thấy đường vẽ mà không thấy rõ các điểm nút dữ liệu nằm ở đâu).
+color='b': Quy định màu sắc của đường vẽ và marker là màu xanh dương (b viết tắt của Blue).
+linestyle='-': Quy định kiểu đường vẽ là đường nét liền (Solid line). Nếu bạn đổi thành --, đường vẽ sẽ biến thành nét đứt.
