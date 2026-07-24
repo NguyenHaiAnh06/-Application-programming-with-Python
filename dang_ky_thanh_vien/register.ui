@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Main_Ui</class>
+ <widget class="QMainWindow" name="Main_Ui">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>450</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Đăng ký thành viên</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>24</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Đăng ký</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>50</y>
+      <width>171</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Nhanh chóng và dễ dàng</string>
+    </property>
+   </widget>
+
+   <!-- Ô Nhập Họ -->
+   <widget class="QPlainTextEdit" name="txt_ho">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>80</y>
+      <width>191</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="placeholderText">
+     <string>Họ</string>
+    </property>
+   </widget>
+
+   <!-- Ô Nhập Tên -->
+   <widget class="QPlainTextEdit" name="txt_ten">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>80</y>
+      <width>191</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="placeholderText">
+     <string>Tên</string>
+    </property>
+   </widget>
+
+   <!-- Ô Nhập SĐT hoặc Email -->
+   <widget class="QPlainTextEdit" name="txt_contact">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>130</y>
+      <width>401</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="placeholderText">
+     <string>Số di động hoặc email</string>
+    </property>
+   </widget>
+
+   <!-- Ô Nhập Mật khẩu -->
+   <widget class="QPlainTextEdit" name="txt_password">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>180</y>
+      <width>401</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="placeholderText">
+     <string>Mật khẩu mới</string>
+    </property>
+   </widget>
+
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>230</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ngày sinh</string>
+    </property>
+   </widget>
+
+   <!-- Combo Box Ngày -->
+   <widget class="QComboBox" name="cb_ngay">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>250</y>
+      <width>101</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <item><property name="text"><string>14</string></property></item>
+    <item><property name="text"><string>15</string></property></item>
+   </widget>
+
+   <!-- Combo Box Tháng -->
+   <widget class="QComboBox" name="cb_thang">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>250</y>
+      <width>131</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <item><property name="text"><string>Tháng 2</string></property></item>
+    <item><property name="text"><string>Tháng 3</string></property></item>
+   </widget>
+
+   <!-- Combo Box Năm -->
+   <widget class="QComboBox" name="cb_nam">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>250</y>
+      <width>131</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <item><property name="text"><string>1970</string></property></item>
+    <item><property name="text"><string>1990</string></property></item>
+   </widget>
+
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>290</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Giới tính</string>
+    </property>
+   </widget>
+
+   <!-- Radio Buttons Giới tính -->
+   <widget class="QRadioButton" name="rad_nam">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>310</y>
+      <width>100</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Nam</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="rad_nu">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>310</y>
+      <width>100</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Nữ</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="rad_tuy_chinh">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>310</y>
+      <width>100</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Tùy chỉnh</string>
+    </property>
+   </widget>
+
+   <!-- Điều khoản -->
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>350</y>
+      <width>401</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Bằng cách nhấp vào Đăng ký, bạn đồng ý với Điều khoản, Chính sách dữ liệu và Chính sách cookie của chúng tôi.</string>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+
+   <!-- Checkbox Đồng ý -->
+   <widget class="QCheckBox" name="chk_agree">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>420</y>
+      <width>391</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Tôi đồng ý với các điều khoản trên</string>
+    </property>
+   </widget>
+
+   <!-- Nút Đăng ký -->
+   <widget class="QPushButton" name="btn_register">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>460</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Đăng ký</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
