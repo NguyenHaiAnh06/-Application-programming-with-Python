@@ -1,0 +1,3 @@
+from mysql.connector import Error:chỉ lấy riêng một "công cụ" tên là Error từ thư viện ra.
+Công cụ này chuyên dùng để bắt và định dạng các lỗi liên quan đến MySQL (ví dụ: sai mật khẩu, sai tên database, hoặc chưa bật MySQL Server).
+dtb.is_connected() dùng để check kết nối, nếu đúng trả True nếu sai trả flase là hàm có sẵn
